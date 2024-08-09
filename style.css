@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.483);
+}
+
+.footer-image img{
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+section{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.card{
+    width: 23%;
+    height: 450px;
+    /* border-radius: 70%; */
+    /* box-shadow: 0 0 10px rgba(4, 0, 0, 0.855); */
+}
+
+.card-image{
+    height: 200px;
+
+}
+
+.card-body{
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.483);
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.card-footer button{
+    /* margin-left: 10px; */
+    padding: 11px;
+    width: 100%;
+    border-radius: 45px;
+    background-color: orange;
+    border: transparent;
+    
+    
+}
+
+.cards .card:nth-child(1) .card-text p:nth-child(1){
+    background-color: rgb(40, 197, 26);
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+.cards .card:nth-child(2) .card-text p:nth-child(1){
+    background-color: rgb(201, 236, 86);
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+.cards .card:nth-child(3) .card-text p:nth-child(1){
+    background-color: rgb(197, 26, 26);
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.cards .card:nth-child(4) .card-text p:nth-child(1){
+    background-color: rgb(46, 25, 87);
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.card-text h3{
+    margin: 20px 0 40px 0;
+
+}
